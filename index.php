@@ -135,7 +135,7 @@ if(isset($_POST["submit"])){
 
             <div style="position:relative; overflow:hidden;">
 
-            <a href="https://yandex.uz/maps/21947/navoi/?utm_medium=mapframe&utm_source=maps"
+            <a href="https://yandex.uz/maps/10502/paris/?ll=2.338827%2C48.860907&z=16.3"
 
             style="color:#eee;font-size:12px;position:absolute;top:0px;">Лувр на карте</a>
 
