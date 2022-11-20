@@ -16,8 +16,8 @@ if(isset($_POST["submit"])){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Музей Лувр</title>
-  <link rel="stylesheet" href="css/main.css">
-  <!--link rel="stylesheet" href="css/svyaz.css" type="text/css"-->
+  <link rel="stylesheet" href="main.css">
+  <!--link rel="stylesheet" href="svyaz.css" type="text/css"-->
   <script type="text/javascript" src="script.js"></script>
   
 </head>
@@ -41,11 +41,11 @@ if(isset($_POST["submit"])){
       <span>KARASIQUE</span>
     </div>
     <div id="about">
-      <a href="muzey.php" title="Музей" onclick="slowScroll('#main')">Музей</a>
-      <a href="opisan.php" onclick="slowScroll('#overview')" title="История Лувра">История Лувра</a>
+      <a href="muzey.php" title="Музей">Музей</a>
+      <a href="opisan.php" title="История Лувра">История Лувра</a>
   
-      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
-      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Купить билеты</a>
+      <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">Контакты</a>
     </div>
   </header>
 
@@ -109,7 +109,7 @@ if(isset($_POST["submit"])){
             <h2>Напишите нам</h2>
             <span class="headline">Пишите, мы будем очень рады пообщаться с вами</span>
 
-            <form class="rf"  action="baza.html" method="post">
+            <form class="rf"  action="baza.php" method="post">
                 <div class="box2">
                     <ul>
                         <li><input type="text" name="name" placeholder="ВАШЕ ИМЯ" class="req"></li>
