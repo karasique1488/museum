@@ -30,10 +30,6 @@ if(isset($_POST["submit"])){
 </div>
 
 
-<!--script src="three.r92.min.js"></script>
-<!--script src="vanta.rings.min.js"></script>
-<!-- script src="app.js"></script -->
-
 
 
 
@@ -41,7 +37,7 @@ if(isset($_POST["submit"])){
 
   <header>
     <div id="logo" onclick="slowScroll('#top')">
-      <span>Art</span>
+      <span>KARASIQUE</span>
     </div>
     <div id="about">
       <a href="muzey.php" title="Музей" onclick="slowScroll('#main')">Музей</a>

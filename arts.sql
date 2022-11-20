@@ -13,5 +13,5 @@ CREATE TABLE IF NOT EXISTS `contact` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO `contact` (`name`, `email`, `message`) VALUES
-('farhadik', 'farhad', 'messaga');
+('farhadik', 'farhad@mail.com', 'messaga');
 
