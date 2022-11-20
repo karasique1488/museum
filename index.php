@@ -30,9 +30,9 @@ if(isset($_POST["submit"])){
 </div>
 
 
-<script src="three.r92.min.js"></script>
-<script src="vanta.rings.min.js"></script>
-<script src="app.js"></script>
+<!--script src="three.r92.min.js"></script>
+<!--script src="vanta.rings.min.js"></script>
+<!-- script src="app.js"></script -->
 
 
 
