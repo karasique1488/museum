@@ -46,7 +46,7 @@ if(isset($_POST["submit"])){
     <div id="about">
       <a href="muzey.php" title="Музей" onclick="slowScroll('#main')">Музей</a>
       <a href="opisan.php" onclick="slowScroll('#overview')" title="История Лувра">История Лувра</a>
-      <a href="#" onclick="slowScroll('#overview')" title="Лувр внутри">Лувр внутри</a>
+  
       <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
       <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
     </div>
