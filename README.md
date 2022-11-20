@@ -1,0 +1,3 @@
+# museum
+dedlayn
+sobstvenno subj
