@@ -17,7 +17,8 @@ if(isset($_POST["submit"])){
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Музей Лувр</title>
   <link rel="stylesheet" href="css/main.css">
-<script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="css/svyaz.css" type="text/css">
+  <script type="text/javascript" src="script.js"></script>
   
 </head>
 <body>
