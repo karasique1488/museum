@@ -17,7 +17,7 @@ if(isset($_POST["submit"])){
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Музей Лувр</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/svyaz.css" type="text/css">
+  <!--link rel="stylesheet" href="css/svyaz.css" type="text/css"-->
   <script type="text/javascript" src="script.js"></script>
   
 </head>
@@ -103,7 +103,7 @@ if(isset($_POST["submit"])){
 			<input type="submit" name="submit" value="Отправить">
     </form>
   </div>
-  <div id="contact">
+  <!--div id="contact">
         <div class="layout">
 
             <h2>Напишите нам</h2>
@@ -125,7 +125,7 @@ if(isset($_POST["submit"])){
             </form>
 
         </div>
-    </div>
+    </div-->
   <div id="faq">
     <div>
       <span class="title"><b>Полезная информация</b></span><br>
