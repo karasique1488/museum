@@ -95,7 +95,7 @@ if(isset($_POST["submit"])){
 
 
   <div id="contacts">
-    <center><h5>Чтобы купить билет нужно оформит </h5></center>
+    <center><h5>Чтобы купить билет нужно оформить его </h5></center>
     <form id="form_input" action="#" method="POST">
       <label for="name">Имя <span>*</span></label><br>
       <input type="text" placeholder="Введите имя" name="name" id="name"><br>
@@ -123,13 +123,11 @@ if(isset($_POST["submit"])){
       
     </div>
     <div>
-      <span class="title">Гарантии</span><br>
-      <span class="heading">Какие гарантии есть</span>
-      <p></p>
+     
       <span class="heading">Имя Фамилия Отчество</span>
-      <p>Бурханова Айгуль Ильясовна</p>
+      <p>Фархад Юнусалиев</p>
       <span class="heading">Номер телефона </span>
-      <p>+998(90) 714-04-95 </p>
+      <p>+998(90) 368 1337 </p>
     </div>
   </div>
 
