@@ -130,7 +130,30 @@ if(isset($_POST["submit"])){
       <p>+998(90) 368 1337 </p>
     </div>
   </div>
+  <div id="map">
+        <div class="layout">
 
+            <div style="position:relative; overflow:hidden;">
+
+            <a href="https://yandex.uz/maps/21947/navoi/?utm_medium=mapframe&utm_source=maps"
+
+            style="color:#eee;font-size:12px;position:absolute;top:0px;">Лувр на карте</a>
+
+            <a href="https://yandex.uz/maps/profile?ll=65.369563%2C40.091594&utm_medium=mapframe&utm_source=maps&z=16.1"
+
+            style="color:#eee;
+            font-size:12px;
+            position:absolute;
+            top:14px; align-content: center;">Яндекс.Карты</a>
+
+            <iframe src="https://yandex.uz/map-widget/v1/-/CCUA6KDRlA" width="100%" height=380.5em margin="0" padding-bottom="4.8em" border-top="0 
+            <!-- 768px -->
+            
+            @media screen and (max-width:768px), only screen and (max-device-width:768px){ height=350.5em }" >
+            </iframe></div>
+
+        </div>
+    </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
     function slowScroll(id) {
