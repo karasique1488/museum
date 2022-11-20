@@ -139,7 +139,7 @@ if(isset($_POST["submit"])){
 
             style="color:#eee;font-size:12px;position:absolute;top:0px;">Лувр на карте</a>
 
-            <a href="https://yandex.uz/maps/profile?ll=65.369563%2C40.091594&utm_medium=mapframe&utm_source=maps&z=16.1"
+            <a href="https://yandex.uz/maps/org/203006174551/?ll=2.338827%2C48.860907&z=16.3"
 
             style="color:#eee;
             font-size:12px;
