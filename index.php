@@ -124,37 +124,14 @@ if(isset($_POST["submit"])){
     </div>
     <div>
      
-      <span class="heading">Имя Фамилия Отчество</span>
+      <span class="heading">сайт сделал</span>
       <p>Фархад Юнусалиев</p>
       <span class="heading">Номер телефона </span>
       <p>+998(90) 368 1337 </p>
     </div>
   </div>
-  <div id="map">
-        <div class="layout">
-
-            <div style="position:relative; overflow:hidden;">
-
-            <a href="https://yandex.uz/maps/10502/paris/?ll=2.338827%2C48.860907&z=16.3"
-
-            style="color:#eee;font-size:12px;position:absolute;top:0px;">Лувр на карте</a>
-
-            <a href="https://yandex.uz/maps/org/203006174551/?ll=2.338827%2C48.860907&z=16.3"
-
-            style="color:#eee;
-            font-size:12px;
-            position:absolute;
-            top:14px; align-content: center;">Яндекс.Карты</a>
-
-            <iframe src="https://yandex.uz/maps/-/CCUfMCDX-A" width="100%" height=380.5em margin="0" padding-bottom="4.8em" border-top="0 
-            <!-- 768px -->
-            
-            @media screen and (max-width:768px), only screen and (max-device-width:768px){ height=350.5em }" >
-            </iframe></div>
-
-        </div>
-    </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <div style="position:relative;overflow:hidden;"><a href="https://yandex.uz/maps/org/203006174551/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Louvre</a><a href="https://yandex.uz/maps/10502/paris/category/museum/184105894/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Muzey  </a><iframe src="https://yandex.uz/map-widget/v1/-/CCUfMGsATA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+  <script src="jquery.min.js"></script>
   <script>
     function slowScroll(id) {
       $('html, body').animate({
