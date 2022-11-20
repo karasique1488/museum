@@ -102,7 +102,29 @@ if(isset($_POST["submit"])){
 			<input type="submit" name="submit" value="Отправить">
     </form>
   </div>
+  <div id="contact">
+        <div class="layout">
 
+            <h2>Напишите нам</h2>
+            <span class="headline">Пишите, мы будем очень рады пообщаться с вами</span>
+
+            <form class="rf"  action="baza.html" method="post">
+                <div class="box2">
+                    <ul>
+                        <li><input type="text" name="name" placeholder="ВАШЕ ИМЯ" class="req"></li>
+                        <li><input type="email" name="email" placeholder="ВАШЕ E-MAIL" class="req"></li>
+                        <li><input type="tel" name="phone" placeholder="ВАШЕ ТЕЛЕФОН"></li>
+                    </ul>
+                </div>
+
+                <div class="box2">
+                    <textarea name="message" placeholder="ВАШЕ СООБЩЕНИЕ *" class="req"></textarea>
+                </div>
+                <input type="submit" class="button " value="Отправить">
+            </form>
+
+        </div>
+    </div>
   <div id="faq">
     <div>
       <span class="title"><b>Полезная информация</b></span><br>
