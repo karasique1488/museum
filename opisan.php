@@ -75,7 +75,7 @@ body{
 </font></b>
 </td><td width=131>&nbsp;</td></table></td></tr><tr><td>
 
-<marquee scrollamount="1" scrolldelay="1" STYLE="color:#990000; font-family:Magneto; font-size:14px">Burkhanova Aygul</marquee>
+<marquee scrollamount="1" scrolldelay="1" STYLE="color:#990000; font-family:Magneto; font-size:14px">Farhad Yunusaliev</marquee>
 
 <HR>
 
